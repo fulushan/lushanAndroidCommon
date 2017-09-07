@@ -17,6 +17,7 @@
         android:layout_height="wrap_content"
         android:text="Okhttp例子"
         android:padding="10dp"
+        android:onClick="onViewClicked"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/white_line_yuan_bg"
         />
