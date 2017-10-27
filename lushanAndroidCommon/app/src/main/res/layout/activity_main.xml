@@ -13,11 +13,25 @@
 
     <Button
         android:id="@+id/okHttp_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="Okhttp例子"
         android:padding="10dp"
+        android:gravity="center"
         android:onClick="onViewClicked"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/white_line_yuan_bg"
+        />
+
+    <Button
+        android:id="@+id/eventBus_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="EventBus例子"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="eventBusClicked"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/white_line_yuan_bg"
         />
